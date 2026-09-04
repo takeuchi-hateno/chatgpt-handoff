@@ -1,0 +1,7 @@
+interface:
+  display_name: "ChatGPT Handoff"
+  short_description: "Generate a secret-filtered local review bundle"
+  default_prompt: "Use $chatgpt-handoff to generate the local ChatGPT review handoff for this repository."
+
+policy:
+  allow_implicit_invocation: true
